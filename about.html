@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/logo-hotel.png" alt="logo" class="logo" />
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#home">
+              <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+              <h4>Home</h4>
+            </a>
+          </li>
+          <li>
+            <a href="#reservas">
+              <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
+              <h4>Reservas</h4>
+            </a>
+          </li>
+          <li>
+            <a href="#contato">
+              <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+              <h4>Contato</h4>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1>O hotel mais íntimo</h1>
+      <article class="art-text">
+        <p>
+          Prepare-se para uma experiência completamente nova em intimidade de
+          hotel! Com uma localização na zona rural, a sua privacidade e seu
+          sossego são garantidos! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Doloremque ipsam sunt perspiciatis quasi ullam quas
+          temporibus impedit dolore dolores facere, mollitia veniam amet cum,
+          non officiis vero harum neque, quibusdam atque fugiat culpa velit
+          cupiditate suscipit molestiae! Atque perferendis cum tenetur
+          recusandae, reiciendis delectus totam dolor corporis nesciunt, aliquid
+          nisi?.
+        </p>
+        <img
+          src="./images/hotel-fazenda.jpg"
+          alt="Hotel Fazenda"
+          class="home-img"
+        />
+      </article>
+      <h1 class="h1-right">As acomodações mais aconchegantes</h1>
+      <article class="art-text">
+        <img src="./images/camas.jpg" alt="Camas" class="home-img" />
+        <p>
+          Escolhidas para o seu máximo conforto, as acomodações do The Hotel
+          possuem as camass mais fofinhas, com ar-condicionado, banheiro com
+          água quente, travesseiros de pena de ganso e cobertas bem quentinhas
+          para os dias mais frios! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Repellat est vel enim at tempora aperiam molestias
+          fugit, optio itaque dolore iure, perferendis dolores, quam omnis
+          temporibus asperiores autem atque nesciunt veritatis quos praesentium
+          ipsa nam. Atque sapiente fugit voluptatum laborum, praesentium
+          corrupti nemo at, consectetur vitae molestiae accusamus magnam fugiat!
+        </p>
+      </article>
+      <h1>Restaurante temático</h1>
+      <article class="art-text">
+        <p>
+          A boa e velha comida caseira, no fogão de lenha, ao seu alcance!
+          Pratos saborosos num ambiente que te faz querer ficar ainda mais!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
+          iusto itaque quod sit perspiciatis hic ducimus, placeat magni
+          similique voluptate sint, excepturi, fugit rem. Quasi ullam tenetur
+          eaque fugit earum quibusdam neque nulla. Modi in odit ipsa placeat
+          consequatur excepturi veniam reprehenderit pariatur officiis
+          necessitatibus impedit dolores, dolor error magnam. Illum est alias,
+          consectetur delectus corporis voluptatibus nostrum eos quaerat.
+        </p>
+        <img src="./images/fogao.jpeg" alt="Fogão a Lenha" class="home-img" />
+      </article>
+    </main>
+    <footer>
+      <div class="footer_div">
+        <div>
+          <p>Travessa do São José, Km 2, Abaíra - BA</p>
+          <p>+55 77 3476-2766</p>
+        </div>
+        <div class="social">
+          <p>Nossas Redes</p>
+          <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+        </div>
+        <div>
+          <form action="post">
+            <fieldset>
+              <legend>Como podemos te ajudar?</legend>
+              <ul>
+                <li>
+                  <label for="nome_mensagem">Nome: </label>
+                  <input
+                    type="text"
+                    name="nome_mensagem"
+                    id="nome_mensagem"
+                    placeholder="Seu nome aqui"
+                    required
+                  />
+                </li>
+                <li>
+                  <label for="email_mensagem">Email: </label>
+                  <input
+                    type="email"
+                    name="email_mensagem"
+                    id="email_mensagem"
+                    required
+                  />
+                </li>
+                <li>
+                  <label for="telefone_mensagem">Telefone de contato: </label>
+                  <input
+                    type="number"
+                    name="telefone_mensagem"
+                    id="telefone_mensagem"
+                    required
+                  />
+                </li>
+                <button>Enviar</button>
+              </ul>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
