@@ -5,14 +5,14 @@
 /*header*/
 
 .header {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  background-image: url("/desafios/about-individual/images/header-background-01.png");
+  background-image: url("/about-desafio-individual-tex/images/header-background-01.png");
   background-repeat: repeat;
 }
 
