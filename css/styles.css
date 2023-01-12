@@ -14,7 +14,7 @@
   position: sticky;
   top: 0;
   padding: 2rem;
-  background-image: url(/about-desafio-individual-tex/images/header-background-01.png);
+  background-image: url(../images/header-background-01.png);
 }
 
 /*navbar*/
@@ -32,7 +32,7 @@
 
 .navbar ul {
   display: flex;
-  
+
   align-content: center;
   list-style: none;
   padding: 10px;
