@@ -6,14 +6,15 @@
 
 .header {
   width: auto;
-  height: auto;
+  height: 25vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
   padding: 2rem;
-  background-image: url("/about-desafio-individual-tex/images/header-background-01.png");
-  background-repeat: repeat;
+  background-image: url(/about-desafio-individual-tex/images/header-background-01.png);
 }
 
 /*navbar*/
@@ -24,13 +25,14 @@
 }
 
 .navbar {
+  display: flex;
   width: 80%;
-  position: sticky;
   top: 0;
 }
 
 .navbar ul {
   display: flex;
+  
   align-content: center;
   list-style: none;
   padding: 10px;
@@ -39,6 +41,7 @@
 
 .navbar ul li a {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   margin-left: 5vw;
   font-size: 18pt;
