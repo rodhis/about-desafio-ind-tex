@@ -64,6 +64,11 @@ img {
   text-decoration: underline #498149 dotted 4px;
 }
 
+.canas {
+  position: relative;
+  height: auto;
+}
+
 /*títulos*/
 
 p,
@@ -165,12 +170,20 @@ ul button {
     max-width: 100%;
     flex-direction: column;
     padding: 0;
+    align-items: center;
   }
-  .art-text {
+  .canas {
+    display: none;
+  }
+  .text {
     flex-direction: column;
   }
   .footer_div {
     max-width: 100%;
     flex-direction: column;
+    align-items: center;
+  }
+  .end-cont p {
+    padding: 0.5rem;
   }
 }
